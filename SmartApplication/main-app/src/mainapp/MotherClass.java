@@ -36,8 +36,6 @@ public class MotherClass {
         for (User user : userService.getUsers()) {
             System.out.println(user);
         }
-
-
         System.out.println("\nItems in the System:");
         for (Items item : itemService.getItems()) {
             System.out.println(item);
